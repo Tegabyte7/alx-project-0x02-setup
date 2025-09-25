@@ -28,6 +28,7 @@ const HomePage: React.FC = () => {
 						<Card title={item.title} content={item.content} key={key} />
 					))
 				}
+				<Card title="New title" content="implementation of the content to show a different kind of component usage"/>
 			</div>
 		</div>
 	)
